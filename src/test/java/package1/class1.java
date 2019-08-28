@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class class1 {
 	@BeforeSuite
 	public void testBeforeSuite(){
-		System.out.println("testBeforeSuite-----------");
+		System.out.println("testBeforeSuite-----------++++++++");
 	}
 	
 	@Test(groups={"group1","group2"})
