@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+    <groups>
+      <group name="group2">
+        <method signature="class1.method1()[pri:0, instance:package1.class1@58651fd0]" name="method1" class="package1.class1"/>
+        <method signature="class3.method6()[pri:0, instance:package2.class3@4520ebad]" name="method6" class="package2.class3"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="class1.method1()[pri:0, instance:package1.class1@58651fd0]" name="method1" class="package1.class1"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Test" duration-ms="71" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+      <class name="package1.class1">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:package1.class1@58651fd0]" name="testBeforeSuite" is-config="true" duration-ms="17" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:package1.class1@58651fd0]" name="method1" duration-ms="9" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:package1.class1@58651fd0]" name="method2" duration-ms="7" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:package1.class1@58651fd0]" name="method3" duration-ms="2" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- package1.class1 -->
+      <class name="package2.class3">
+        <test-method status="PASS" signature="method6()[pri:0, instance:package2.class3@4520ebad]" name="method6" duration-ms="5" started-at="2019-08-27T14:59:23Z" finished-at="2019-08-27T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- package2.class3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
