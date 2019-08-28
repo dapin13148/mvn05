@@ -11,7 +11,7 @@ public class class1 {
 	
 	@Test(groups={"group1","group2"})
 	public void method1(){
-		System.out.println("package1-class1-method1");
+		System.out.println("package1-class1-method1----------");
 	}
 	
 	@Test
